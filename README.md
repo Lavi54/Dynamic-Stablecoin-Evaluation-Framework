@@ -12,3 +12,6 @@ LINK to pitch deck: https://docs.google.com/presentation/d/1VTN48ZN-QTD2E_tNBxJn
 LINK to BUSD Report: https://docs.google.com/document/d/1ZXYXXYy4nmiuQqFp0DIu9MJQWu2N5wx5Ge2HI4L3lIg/edit#
 
 LINK to DAI Report: https://docs.google.com/document/d/11CfAZgFqOXVVds42C3mPe7iGIyUQIX_QnV1fOBXXdss/edit#heading=h.new7sqkatkct
+
+LINK to download pitch video: https://www.swisstransfer.com/d/6a88baed-b8b1-4433-b2a6-bc0d48f9c01f
+
