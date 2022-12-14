@@ -1,71 +1,34 @@
-<!-- Output copied to clipboard! -->
-
-<!-----
-
-You have some errors, warnings, or alerts. If you are using reckless mode, turn it off to see inline alerts.
-* ERRORs: 0
-* WARNINGs: 0
-* ALERTS: 1
-
-Conversion time: 2.775 seconds.
 
 
-Using this Markdown file:
 
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
+**Date**: 		December 13th, 2022
 
-Conversion notes:
-
-* Docs to Markdown version 1.0β33
-* Mon Dec 12 2022 06:41:56 GMT-0800 (PST)
-* Source doc: Stablecoin Scoring Methodology
-* Tables are currently converted to HTML tables.
-* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server. NOTE: Images in exported zip file from Google Docs may not appear in  the same order as they do in your doc. Please check the images!
-
-
-WARNING:
-You have 11 H1 headings. You may want to use the "H1 -> H2" option to demote all headings by one level.
-
------>
-
-
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 1.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
+**Authors**: 	[Lavi](https://twitter.com/Lavi_54) & [Dabar90](https://twitter.com/dabar_90)
 
 
 # A Dynamic Stablecoin Evaluation Framework
 
-**Date**: 		December 13th, 2022
-
-**Authors**: 	Lavi & Dabar90
-
 
 ## Abstract
+
+This concept presents a framework for evaluating stablecoin projects. Stablecoins are cryptocurrencies that are pegged to a stable asset, such as the US dollar, to reduce volatility and provide a stable store of value. The framework is designed to create a holistic overview of stablecoin projects and to enable comparison between them by setting a standard. It also aims to facilitate risk assessments and enable real-time health metrics. The first three categories of the framework are based on the stablecoin trilemma in combination with standard fundamental analysis concepts, to identify the quality and risks of stablecoin protocols.
 
 
 ## Introduction
 
-Stablecoins are cryptocurrencies that are pegged to a stable asset, such as the US dollar, to reduce volatility and provide a stable store of value. However, stablecoins have faced several challenges and criticisms. One of the main issues is that the peg to the underlying asset is not always reliable. Another problem is that some of the most prominent stablecoins are issued by private companies. Most decentralized stablecoins on the other hand still lack wider adaption. Besides these fundamental issues, there are many other risk that come with financial primitives in web3.
+Stablecoins are cryptocurrencies that are pegged to a stable asset, such as the US dollar. Typically their main purpose is to reduce volatility and provide a stable store of value. However, stablecoins have faced several challenges and criticisms. One of the main issues is that the peg to the underlying asset is not always reliable. Another problem is that some of the most prominent stablecoins are issued by private companies. Many projects issuing decentralized stablecoins on the other hand still lack wider adoption. Besides these fundamental issues, many other risks come with financial primitives in web3.
 
 Despite these challenges, the use of stablecoins is growing. In fact, stablecoins are one of the most important innovations in DeFi, with one of the highest addressable markets of all use cases. Thus, the number of projects issuing stablecoins is also growing rapidly. 
 
-As of today, very little has been done in terms of identifying, articulating, or measuring the risks related to those projects. It’s very difficult for everyday users to accentuate the quality of today’s stablecoin landscape. With this whitepaper, we aim to create a foundation for defining an evaluation framework for stablecoins. Primarily to facilitate identifying and measuring all relevant components that can introduce certain risks to these protocols. In essence, this documentation will provide a detailed explanation of how stablecoins can be evaluated.
+However, very little has been done in terms of identifying, articulating, or measuring the risks related to those projects. It’s very difficult for users to accentuate the quality of today’s stablecoin landscape. With this whitepaper, we aim to create a foundation for defining an evaluation framework for stablecoins. Primarily to facilitate identifying and measuring all relevant components that can be used to measure the quality and potentially certain risks related to these protocols.
 
-The objectives of this whitepaper are as follows:
+In essence, this documentation will provide a detailed explanation of how stablecoins can be evaluated. The objectives of this whitepaper are as follows:
 
 
 
-1. Create a holistic overview of all relevant aspects of stablecoin projects 
-2. Enable comparison between stablecoins by setting a standard
-3. Facilitate risk assessments and enable real-time health metrics
+1. Create a holistic overview of all relevant aspects of stablecoin projects.
+2. Enable comparison between stablecoins by setting a standard.
+3. Facilitate risk assessments and enable real-time health metrics.
 
 
 ## An Approach to Creating a Risk Framework
@@ -74,27 +37,48 @@ To achieve these objectives, we first need to create a holistic overview of all 
 
 In the second step, we need to make all relevant components measurable. For this, we fully rely on publicly available metrics. Basing the evaluation framework on fundamental key metrics introduces an objective foundation to calculate the scores. In return, we forgo certain equally important dimensions (e.g. the team or community). These are more complicated to measure and thus more difficult to compare objectively. Hence, we postpone coverage of these aspects to a later version.
 
-Still, it is tricky to fully eliminate subjective assumptions. Despite only using public key metrics, subjectivity comes into play when weighing the scores. Essentially the final score of a project is decided by how well it scored per category, in combination with how much each category contributes to the overall score. In order for this system to be representative, and as close to the truth as possible, we have to set a clear perspective. While trying to strike the right balance between all components, we essentially lean more toward the perspective of stablecoin users.
+Still, it is tricky to fully eliminate subjective assumptions. Despite only using public key metrics, subjectivity comes into play when weighing the scores. Essentially the final score of a project is decided by how well it scored per category, in combination with how much each category contributes to the overall score. For this system to be representative, and as close to the truth as possible, we have to set a clear perspective. While trying to strike the right balance between all components, we essentially lean more toward the perspective of stablecoin users.
 
-Hence, the main focus is on existing or potential risks for stablecoin holders. The framework is not targeted toward governance token holders, or investors of the entity issuing the stablecoin. Therefore, we first and foremost pay attention to components that, from our point of view, pose a risk to end users of the stablecoin. For example, we assume that decentralization is a important, and that centralization can pose a significant risk, hence it is slightly higher weighted than scalability. But we will explain the weighting in more detail below.
+Hence, the main focus is on existing or potential risks for stablecoin holders. The framework is not targeted toward governance token holders, or investors of the entity issuing the stablecoin. Therefore, we first and foremost pay attention to components that, from our point of view, pose a risk to end users of the stablecoin. For example, we assume that decentralization is important, and that centralization can pose a risk. Hence, it is weighted slightly higher than scalability. But we will explain the weighting in more detail below.
+
+Before diving into the framework, we first want to be able to clearly differentiate between different categories of stablecoins. The classification system presented in the next section builds the basis for this.
 
 
-## Evaluation Framework Overview
+## Stablecoin Classification
 
-The review standard will assess stablecoins based on six main categories. The first three points are based on the stablecoin trilemma. Those categories aim to evaluate how well a project solves each of the three problems described in the stablecoin trilemma (see next section).
+To facilitate the differentiation between stablecoin projects, we use a classification system. This will provide high-level separation and introduce subcategories for further separation. At the start, the framework itself will not apply the categorization and it will not differentiate between different stablecoin categories. As mentioned in the first section, our objective is to make stablecoins comparable. Thus, it is essential that the same evaluation framework is used as a basis. The drawback of this approach is that certain important factors that might differentiate a certain category are not measured or might not be weighted in favour of said categories. Later iterations of this framework can then be customized to better suit a specific category.
 
-The fourth category is used to provide an in-depth understanding of the collateral that is backing the stablecoin. The underlying collateral is a very important piece of the puzzle. It touches all three aspects of the stablecoin trilemma. For instance, when using centrally issued currencies as backing, it influences the decentralization ratio. Relying on collateral with low availability can impact the scalability of the project. And when using highly volatile or low-quality tokens to back the stablecoin, it can affect the price stability.
+In the meantime, we are going to recognize the following four stablecoins categories.
 
-The last category aims to provide insights into the technical quality of the protocol. As with all projects that rely on smart contracts, code quality and technical sophistication are very important risk vectors. Most hacks or exploits happen due to technical issues and unheeding security.
 
-As mentioned above, this risk framework aims to be as objective as possible. Thus, we start with a rather lean version. We forgo the inclusion of other relevant dimensions to prove the viability of this basic version. Other fundamental aspects such as team, governance, partnerships, integrations, or regulatory risks can be added in later versions. Furthermore, we also aim to introduce the scoring of yield-bearing synthetic stablecoin representations, such as aDAI or cUSDC for instance. This will require the rather extensive evaluation of the lending protocol (e.g. Aave and Compound), which is deferred to a later stage of this project.
 
-For readers already familiar with the stablecoin trilemma, we recommend skipping the next section and moving directly to the Scoring Overview.
+1. **Custodial Stablecoins**
+
+    These are stablecoins where the assets are stored off-chain. Typically one centralized entity has custody of the collateral assets (examples: USDT, USDC).
+
+2. **Non-custodial Stablecoins**
+
+    This category includes all stablecoin protocols that have their collateral on-chain. This is typically referred to as non-custodial, meaning that the collateral is held by smart contracts (examples: DAI, LUSD, sUSD).
+
+3. **Algorithmic Stablecoins**
+
+    This category refers to fully algorithmic “stablecoins” that don’t require collateral-backing. Some see this as the holy grail of stablecoins. However, the quotation marks hint at the fact that none of these projects have achieved price stability so far (examples: AMPL, ESD)
+
+4. **Hybrid Stablecoins**
+
+    This last category encompasses projects that apply a mix of algorithmic and collateral-backed methods to create a stable asset (examples: FRAX).
+
+
+The second, third, and fourth category tiers take into consideration the collateralization ratio, the collateral type, and finally their issuer type. The full category overview including some examples is in the appendix at the end of this document.
+
+For readers already familiar with the stablecoin trilemma, we recommend skipping the next section and moving directly to the Evaluation Framework Overview.
 
 
 ## The Stablecoin Trilemma
 
-The stablecoin trilemma describes the three problems that a stablecoin needs to solve, in order for it become a viable alternative to fiat money. The three problems are price stability, decentralization, and scalability (capital efficiency).
+Before diving into the evaluation framework, it’s essential that the reader understands the stablecoin trilemma, as we’ll be basing the first three sections on this problem statement.
+
+The stablecoin trilemma describes the three problems that a stablecoin needs to solve, for it to become a viable alternative to fiat money. The three problems are price stability, decentralization, and scalability (capital efficiency).
 
 
 
@@ -106,47 +90,68 @@ The stablecoin trilemma describes the three problems that a stablecoin needs to 
 
 (Source: [Twitter](https://twitter.com/chainlinkgod/status/1528954630813667328))
 
-As of today, there is no stablecoin that embodies all three simultaneously at scale. Typically, stablecoin projects neglect one component in favor of the other two. For instance, USDC and USDT are 100% custodial and centralized. The collateral backing these stables is stored off-chain and custodied by centralized entities. This poses the risk of a single point of failure. Moreover, this setup is not censorship-resistant. Circle has already blacklisted certain addresses from using their stablecoin USDC.
+As of today, no stablecoin embodies all three simultaneously at scale. Typically, stablecoin projects neglect one component in favour of the other two. For instance, USDC and USDT are highly scalable and the most used stablecoin. But they are 100% custodial and centralized. The collateral that is backing these stables is stored off-chain and custody is with centralized entities. This poses the risk of a single point of failure. Moreover, this setup is not censorship-resistant. Circle has already blacklisted certain addresses from using their stablecoin USDC.
 
-MakerDAO’s DAI, for instance, was initially targeted to be a fully decentralized stablecoin. This objective was relinquished over the past years, as the community had difficulties scaling the project when only accepting ETH or WBTC as collateral. To solve this, they started to accept centralized USDC as backing. As a result, DAI is actually more like wUSDC, with over 60% of DAI being backed by USDC.
+DAI, for instance, was initially targeted to be a fully decentralized stablecoin. However, this objective was relinquished over the years, as the community had difficulties scaling the project when only accepting ETH as collateral. To solve this, they started to accept centralized USDC as backing. As a result, some say that DAI is more like wUSDC, with over 60% of DAI being backed by USDC. While Maker is a decentralized protocol, it has to rely on centralized collateral. Moreover, it uses over-collateralized CDP’s to ensure security and price stability. This makes DAI capital inefficient. Meaning that more value has to be locked than can be issued in DAI.
 
-There is also the tragic example of Terra and UST. This project scaled very fast and it was somewhat decentralized. But to achieve this, the project applied a reflexive backing system, with LUNA as the only collateral. LUNA was minted or burned, depending on the demand for UST. Essentially, this led to a deathspiral event, when UST depegged and more LUNA had to minted than the market was able to absorb.
+There is also the drastic example of Terra and UST. This project scaled very fast and it was somewhat decentralized. But to achieve this, the project applied a reflexive backing system, with LUNA as the only collateral. LUNA was minted or burned, depending on the demand for UST. Essentially, this led to a death-spiral event, when UST depegged and more LUNA had to be minted than the market was able to absorb. In other words, UST neglected price stability for the sake of scalability.
 
-In conclusion, we found that this trilemma provides a suitedable foundation to create a review framework. It’s a fair compromise to base the evaluation on, as all stablecoin projects have to face these three issues in their initial design. Of course, there are more issues and risk vectors in the actual implementation, hence we will augment the scoring system with additional categories.
+In conclusion, we found that this trilemma provides a suitable foundation to create a review framework. It’s a fair compromise to base the evaluation on, as all stablecoin projects have to face these same three issues in their initial design. We believe that an evaluation system should award the projects that solve these problems well.
 
-
-## Stablecoin Classification
-
-To facilitate the differentiation between stablecoin projects, we use a classification system. This will provide high-level separation including subcategories. In our framework, we are going to use the following four stablecoins categories.
+Of course, there are more issues and risk vectors in the actual implementation and we have augmented the scoring system with additional scoring categories. The next section will explain all categories in more detail.
 
 
+## Evaluation Framework Overview
 
-1. **Custodial Stablecoins**
-
-    These are stablecoins where they assets are stored off-chain. Typically one centralized entity has custody of the collateral assets (examples: USDT, USDC).
-
-2. **Non-custodial Stablecoins**
-
-    This category includes all stablecoin protocols that have their collateral on-chain. This is typically referred to as non-custodial, meaning that the collateral is held by smart contracts (examples: DAI, LUSD, sUSD).
-
-3. **Algorithmic Stablecoins**
-
-    This category refers to fully algorithmic “stablecoins” that don’t require collateral-backing. Some see this as the holy grail of stablecoins. However, the quotationmarks hint to the fact that none of these projects have achieved price stability so far (examples: AMPL, ESD)
-
-4. **Hybrid Stablecoins**
-
-    This last category encompasses projects that apply a mix of algorithmic and collateral-backed methods to create a stable asset (examples: FRAX).
+In its first version, the review framework will assess stablecoins based on five main categories. As mentioned above, the first three categories are based on the stablecoin trilemma. They aim to evaluate how well a project solves each of the three problems described above. The fourth category is used to provide an in-depth understanding of the collateral that is backing the stablecoin. The last category aims to provide insights into the technical quality of the protocol.
 
 
-The next tiers to differentiate stablecoin projects take into consideration the collateralization ratio, the collateral type, and finally their issuer type. At the end of this document is a full overview of the categoriaztion including some examples.
+### 1. Decentralization
+
+The first section of the framework tries to evaluate a protocol's path to decentralization. While decentralization can be understood and defined in different ways, it is mainly the opposite (i.e. centralization)that makes this section quantifiable. For instance, while there is no agreement yet on what “full decentralization” looks like, there is agreement that only 10 nodes securing a network is considered a centralized blockchain.
+
+In the same manner, we try to measure how “decentralized” a stablecoin project is. The first question will focus on the issuer of the token. On one side there are centralized stablecoin issuers and on the other DAO-governed stablecoin cannot be controlled by one single entity (or a group of few actors). 
+
+The second pillar is the stablecoin users. For this question, the wealth distribution can provide insights into who’s using the stablecoin. Finally, the collateral decentralization ratio (CDR) measures the centralization risk of the collateral. Collateral with excessive off-chain risk (e.g. fiat-backed stables or custodial assets such as gold/oil etc.) is considered to be 0% decentralized. ETH as well as certain reward tokens such as AAVE or CRV are counted as 100% decentralized.
 
 
-## Stablecoin Evaluation Framework Description
+### 2. Scalability / Capital Efficiency
 
-This final section will provide an in-depth description of the evaluation framework designed to measure the quality and risks of stablecoin projects. Initially, the review will consist of five main categories, which will be described in more detail below.
+Measuring effective scalability as in “its potential for exponential and fast growth”, requires the placement of proxy indicators. Hence, we use a project's current adoption rate as the foundation to measure its potential for sustainable and exponential growth.
+
+The adoption can easily be measured by evaluating a project’s user base, market share, and average daily transactions. Further, the acceptance of a stablecoin as means of payment is indicated by how widely it is adapted as a trading pair or other DeFi-related use cases. Thus, CEX listings, DEX pools, as well as lending pools, and yield-generating vaults are considered and awarded. 
 
 
-### Decentralization Score
+### 3. Price Stability
+
+The last of the three trilemma components is mainly measured by looking at a project's historic performance. It can be argued that crypto markets had their fair share of black swan events, market distress, and high volatility. Thus, considering historic performance is deemed as a good indicator of the stablecoins price stability.
+
+In addition, a confidence rating is given concerning the project's stability mechanisms. In general, multiple mechanisms that complement each other and that are well incentivized are considered safer than just relying on arbitrage for example. Over-collateralization, for instance, is considered to be safer than 1:1 or under-collateralization.
+
+
+### 4. Collateral Quality
+
+The underlying collateral is another essential part. It touches on all three aspects of the stablecoin trilemma. For instance, when using centrally issued currencies as backing, it influences the decentralization ratio. Relying on collateral with low availability can impact the scalability of the project. And when using highly volatile or low-quality tokens to back the stablecoin, it can affect the price stability.
+
+Essentially, this section measures the quality of the collateral by dividing it into quality tiers. However, collateral cannot be looked at in isolation, which is why the structure - or collateral diversification - is equally important. As mentioned above, capital efficiency also plays a key role, whereby over-collateralization is deemed inefficient. Highly volatile collateral is also deemed less “fit for purpose” than more stable collateral.
+
+Finally, the section also evaluates a project's transparency, by defining how easy it is to “audit” the collateral, i.e. to confirm that the backing is actually there.
+
+
+### 5. Technical Security
+
+As with all projects that rely on smart contracts, code quality, and technical sophistication is very important risk vectors. Most hacks or exploits happen due to technical issues and unheeding security.
+
+While technical security is a field of investigation in itself, some proxy metrics can be abstracted to get a fair impression of a project's technical safety. The first is smart contract audits, which are measured by looking at the number of audits, the time passed, and finally combined with a subjective statement on the audit firm's reputation. Another important measure to prevent smart contract vulnerabilities is bug bounty programs. This can again easily be quantified by looking at the dollar amount of the bounty in relation to the TVL that the protocol holds. Finally, testing can help to circumvent economic as well as technical issues. Hence, thorough testing and verification processes are taken into account.
+
+Lastly, this section has a unique section that can result in minus points. That is, the hack or exploit penalty will subtract a certain amount from the protocol’s total score, depending on the amount and severity of the exploits.
+
+
+## Closing Statement
+
+As mentioned above, this risk framework aims to be as objective as possible. It also aims to be dynamic. Thus, we start with a rather lean version. We forgo the inclusion of other relevant dimensions, to first prove the viability of this basic version. Other fundamental aspects such as team, governance, partnerships, or regulatory risks shall be added in later versions. The current version is also limited by data availability. That is, in order for this framework to become fully dynamic and independent of manual updates, it requires the right data streams to feed its algorithm. This first iteration still relies on a few manual and rather subjective scoring components, however, already now the majority of the scores can be retrieved directly on-chain or from certain data providers.
+
+Furthermore, we also aim to introduce the evaluation of yield-bearing synthetic stablecoin representations, such as aDAI or cUSDC for instance. This will require the rather extensive evaluation of the lending protocol (e.g. Aave and Compound), which is also deferred to a later stage of this project. However, in combination, this will then allow a full risk-return rating system. In other words, yield can be put in contrast to its associated risk. This will be powerful.
 
 
 
@@ -154,9 +159,9 @@ This final section will provide an in-depth description of the evaluation framew
 # **Stablecoin Evaluation Framework**
 
 
-# **1. Overview **
+# **Overview **
 
-The overview section should provide a high-level introduction of the project. This helps to prepare the reader for what type of project the report is about. A good approach is to summarise the key activities of the protocol, and summarizing the findings of each section at the end.
+The overview section should provide a high-level introduction to the project. This helps to prepare the reader for what type of project the report is about. A good approach is to summarise the key activities of the protocol and summarise the findings of each section at the end.
 
 
 ```
@@ -186,29 +191,21 @@ Any other important information that doesn't fit into any sections below
    </td>
    <td>Decentralized Issuer/Governance
    </td>
-   <td>X / 50
+   <td>X / 100
    </td>
   </tr>
   <tr>
    <td>1.2
    </td>
-   <td>Governance Impact/Mutability
+   <td>User Distribution
    </td>
-   <td>X / 25
+   <td>X / 50
    </td>
   </tr>
   <tr>
    <td>1.3
    </td>
-   <td>Distribution Score
-   </td>
-   <td>X / 25
-   </td>
-  </tr>
-  <tr>
-   <td>1.4
-   </td>
-   <td>Collateral Decentralization Ratio
+   <td>Collateral Decentralization Ratio (CDR)
    </td>
    <td>X / 50
    </td>
@@ -216,7 +213,7 @@ Any other important information that doesn't fit into any sections below
   <tr>
    <td colspan="2" ><strong>Total Decentralization Score</strong>
    </td>
-   <td><strong>X / 150</strong>
+   <td><strong>X / 200</strong>
    </td>
   </tr>
 </table>
@@ -233,9 +230,9 @@ Any other important information that doesn't fit into any sections below
   <tr>
    <td>2.1
    </td>
-   <td>Stablecoin Market Cap and Market Share
+   <td>Stablecoin Market Share
    </td>
-   <td>X / 25
+   <td>X / 30
    </td>
   </tr>
   <tr>
@@ -243,39 +240,31 @@ Any other important information that doesn't fit into any sections below
    </td>
    <td>Circulating and Free Float Supply Ratio
    </td>
-   <td>X / 25
+   <td>X / 30
    </td>
   </tr>
   <tr>
    <td>2.3
    </td>
-   <td>Growth Rate
+   <td>Number of Exchange Listings & Pools
    </td>
-   <td>X / 25
+   <td>X / 30
    </td>
   </tr>
   <tr>
    <td>2.4
    </td>
-   <td>Average Daily Transactions
+   <td>Number of Stablecoin Holders
    </td>
-   <td>X / 25
+   <td>X / 30
    </td>
   </tr>
   <tr>
    <td>2.5
    </td>
-   <td>Transaction Growth
+   <td>Average Daily Transactions
    </td>
-   <td>X / 25
-   </td>
-  </tr>
-  <tr>
-   <td>2.6
-   </td>
-   <td>Number of Token holders
-   </td>
-   <td>X / 25
+   <td>X / 30
    </td>
   </tr>
   <tr>
@@ -298,7 +287,7 @@ Any other important information that doesn't fit into any sections below
   <tr>
    <td>3.1
    </td>
-   <td>Price (off-peg) deviation % - over 7d, 30d, 90d and 180d
+   <td>Price (off-peg) deviation
    </td>
    <td>X / 25
    </td>
@@ -314,7 +303,7 @@ Any other important information that doesn't fit into any sections below
   <tr>
    <td>3.3
    </td>
-   <td>Days in operation
+   <td>Days in Operation
    </td>
    <td>X / 25
    </td>
@@ -363,49 +352,44 @@ Any other important information that doesn't fit into any sections below
   <tr>
    <td>4.1
    </td>
-   <td>Collateral structure (diversification level)
+   <td>Collateral Quality
    </td>
-   <td>X / 25
+   <td>X / 30
    </td>
   </tr>
   <tr>
    <td>4.2
    </td>
-   <td>Capital efficiency (average CR in %) -
+   <td>Capital Structure/Diversification
    </td>
-   <td>X / 25
+   <td>X / 30
    </td>
   </tr>
   <tr>
    <td>4.3
    </td>
-   <td>Collateral volatility
+   <td>Capital Efficiency
    </td>
-   <td>X / 25
+   <td>X / 30
    </td>
   </tr>
   <tr>
    <td>4.4
    </td>
-   <td>Collateral liquidity
+   <td>Collateral Volatility
    </td>
-   <td>X / 25
+   <td>X / 30
    </td>
   </tr>
   <tr>
    <td>4.5
    </td>
-   <td>Protocol/DAO/Company controlled stability mechanisms
+   <td>
+<h2>Auditability of the Collateral</h2>
+
+
    </td>
-   <td>X / 25
-   </td>
-  </tr>
-  <tr>
-   <td>4.6
-   </td>
-   <td>Open market stability mechanisms
-   </td>
-   <td>X / 25
+   <td>X / 30
    </td>
   </tr>
   <tr>
@@ -428,37 +412,29 @@ Any other important information that doesn't fit into any sections below
   <tr>
    <td>4.1
    </td>
-   <td>Smart contract audits and bug bounty score
+   <td>Smart Contract Audits 
    </td>
-   <td>X / 40
+   <td>X / 50
    </td>
   </tr>
   <tr>
    <td>4.2
    </td>
-   <td>Smart contract architecture and complexity
+   <td>Bug Bounty Programs
    </td>
-   <td>X / 40
+   <td>X / 50
    </td>
   </tr>
   <tr>
    <td>4.3
    </td>
-   <td>Composability risks
+   <td>Testing
    </td>
-   <td>X / 35
+   <td>X / 50
    </td>
   </tr>
   <tr>
    <td>4.4
-   </td>
-   <td>Oracle risk
-   </td>
-   <td>X / 35
-   </td>
-  </tr>
-  <tr>
-   <td>4.5
    </td>
    <td>Penalty for hacks or exploits
    </td>
@@ -480,21 +456,150 @@ Any other important information that doesn't fit into any sections below
 </table>
 
 
+**Rating Table**
+
+
+<table>
+  <tr>
+   <td><strong>Rating</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+   <td><strong>Score</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>AA
+   </td>
+   <td>Prime-grade protocol
+   </td>
+   <td>Total Score >85%
+   </td>
+  </tr>
+  <tr>
+   <td>A
+   </td>
+   <td>High-grade protocol
+   </td>
+   <td>Total Score >75%
+   </td>
+  </tr>
+  <tr>
+   <td>BB
+   </td>
+   <td>Upper-medium-grade protocol
+   </td>
+   <td>Total Score >60%
+   </td>
+  </tr>
+  <tr>
+   <td>B
+   </td>
+   <td>Medium-grade protocol
+   </td>
+   <td>Total Score >50%
+   </td>
+  </tr>
+  <tr>
+   <td>CC
+   </td>
+   <td>Lower-medium-grade protocol
+   </td>
+   <td>Total Score >40%
+   </td>
+  </tr>
+  <tr>
+   <td>C
+   </td>
+   <td>Low-grade protocol
+   </td>
+   <td>Total Score >30%
+   </td>
+  </tr>
+  <tr>
+   <td>D
+   </td>
+   <td>Garbage
+   </td>
+   <td>TotalScore &lt;30%
+   </td>
+  </tr>
+</table>
 
 
 
 
-1. **Decentralization - 150 pts**
-
-This first section aims to capture a stablecoins progress toward decentralization. Typically a project starts rather centralized, with the founding team having strong influence and impact. However, as projects mature, dependency on the team and other centralized partys should diminish further. Immutability of core smart contracts can also reduce reliance and thus, reduce risks of harmful changes.
-
-**1.1 Decentralized Governance (50 pts)**
 
 
-## Distributed governance allows token holders and community members to participate in the governance of open finance protocols. This section tries to identify whether a stablecoin’s governance system is sufficiently decentralized. To answer this, the question to be asked is: “can one entity or a small group, exert significant influence over the stablecoin or the protocol? This can be either via exclusive access rights to core functionalities (e.g. smart contracts) or high concentration of voting power.
+1. **Decentralization - 200 pts**
+
+This first section aims to capture a stablecoins progress toward decentralization. Typically a project starts rather centralized, with the founding team having strong influence. However, as the projects mature, dependency on the team and other centralized parties should diminish. The immutability of core smart contracts can also reduce reliance and thus, reduce risks of harmful changes.
+
+**1.1 Decentralized Issuer/Governance (100 pts)**
 
 
-## This first section is only relevant for non-custodial protocols. Fiat-backed stables with off-chain collateral will get 0 points.
+## Distributed governance allows token holders and community members to participate in the governance of open finance protocols. This section tries to identify whether a stablecoin’s governance system is sufficiently decentralized. To answer this, the question to be asked is: “can one entity, or a small group, exert significant influence over the stablecoin or the protocol? This can be either via exclusive access rights to core functionalities (e.g. smart contracts) or a high concentration of voting power.
+
+
+## This first section is only relevant to non-custodial protocols. Fiat-backed stables with off-chain collateral will get 0 points.
+
+
+## ** \
+Answer:** \
+ \
+**Score: **
+
+
+<table>
+  <tr>
+   <td><strong>Score</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>100
+   </td>
+   <td>Voting power is substantially decentralized, there is a large and active community, and no central party or small group has majority voting power.
+   </td>
+  </tr>
+  <tr>
+   <td>75
+   </td>
+   <td>Voting power is fairly decentralized, there is an active community, and no central party has majority voting power.
+   </td>
+  </tr>
+  <tr>
+   <td>50
+   </td>
+   <td>Voting power is somewhat decentralized or somewhat concentrated around a few addresses. Those are well-known and trusted community members.
+   </td>
+  </tr>
+  <tr>
+   <td>25
+   </td>
+   <td>Governance is rather centralized. The community can take influence, but voting power is in the hands of a few.
+   </td>
+  </tr>
+  <tr>
+   <td>10
+   </td>
+   <td>Governance is more or less centralized. The team makes all decisions.
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>The stablecoin is fully controlled by a centralized entity (no governance).
+   </td>
+  </tr>
+</table>
+
+
+**1.2 User Distribution (50 pts)**
+
+
+## The user distribution can help to better understand the usage of a stablecoin. If there is a high supply concentration, this typically hints that the coin is mostly used by a few large holders. And less established for retail use cases. To measure the distribution, the total number of addresses, that together hold 80% or more of the total supply, is measured.
 
 
 ## ** \
@@ -513,168 +618,52 @@ Answer:** \
   <tr>
    <td>50
    </td>
-   <td>Voting power is substantially decentralized, there is a large and active community, no central party or small group has majority voting power.
+   <td>80% of total supply is held by 1500 or more addresses
    </td>
   </tr>
   <tr>
    <td>40
    </td>
-   <td>Voting power is fairly decentralized, there is an active community, no central party has majority voting power.
+   <td>80% of total supply is held by 750 or more addresses
    </td>
   </tr>
   <tr>
    <td>30
    </td>
-   <td>Voting power is somewhat decentralized or somewhat concentrated around a few addresses. Those are well-known and trusted community members.
+   <td>80% of total supply is held by 250 or more addresses
    </td>
   </tr>
   <tr>
    <td>20
    </td>
-   <td>Governance is rather centralized. Community can take influence, but voting power is in the hands of a few.
+   <td>80% of total supply is held by 100 or more addresses
    </td>
   </tr>
   <tr>
    <td>10
    </td>
-   <td>Governance is more or less centralized. The team makes all decisions.
+   <td>80% of total supply is held by less than 50 addresses
    </td>
   </tr>
   <tr>
    <td>0
    </td>
-   <td>The stablecoin is fully controlled by a centralized entity (no governance).
+   <td>80% of total supply is held by less than 10 addresses
    </td>
   </tr>
 </table>
 
 
-**1.2 Governance Impact / Mutability (25 pts)**
+**1.3 Collateral Decentralization Ratio (50 pts)**
 
 
-## The second aspect to consider with regards to governance, is to understand how far reaching its impact can be. While governance can be beneficial to steer a project, stablecoins should not form an over-reliance on human/community intervention. Meaning that the protocol should limit the mutability of its core functionalities (specifically smart contracts) to only necessary parameters. Hence, to what extent are governance capabilities limited to necessary parameters only? Are there centralized components with significant access rights that can impact the protocol?** \
-**
+## The entity issuing a stablecoin might be decentralized, censorship-resistant, and fully immutable. However, there is little value in that when the collateral is subject to significant centralized control.
 
 
-## **Answer:** \
- \
-**Score: **
+## The collateral decentralization ratio (CDR) measures the centralization risk of collateral tokens. Collateral with excessive off-chain risk (e.g. fiat-backed stables or custodial assets such as gold/oil etc.) is considered to be 0% decentralized. ETH or MATIC, as well as certain reward tokens such as AAVE or CRV, are counted as 100% decentralized.
 
 
-<table>
-  <tr>
-   <td><strong>Score</strong>
-   </td>
-   <td><strong>Description</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>25
-   </td>
-   <td>Governance impact is limited to the necessary parameters. What should be immutable cannot be impacted. The change process is very robust (on-chain governance).
-   </td>
-  </tr>
-  <tr>
-   <td>20
-   </td>
-   <td>Governance has the right influence over core processes. Some contracts/parameters are immutable. The governance process is robust (on-chain).
-   </td>
-  </tr>
-  <tr>
-   <td>15
-   </td>
-   <td>Governance has far reaching powers and can change everything related to the protocols core contracts, operations, tokenomics, funding. Some (crucial) access controls are still centralized.
-   </td>
-  </tr>
-  <tr>
-   <td>10
-   </td>
-   <td>Governance only functions as a signal. The team has full access to core functionalities. But the team is trusted/well-known (they have good reputation).
-   </td>
-  </tr>
-  <tr>
-   <td>5
-   </td>
-   <td>The team has full access to all core functionalities. The team is public and trusted.
-   </td>
-  </tr>
-  <tr>
-   <td>0
-   </td>
-   <td>The team has full access to all core functionalities. The team is anon.
-   </td>
-  </tr>
-</table>
-
-
-**1.3 Supply Distribution (25 pts)**
-
-
-## The supply distribution can help to better understand usage of a stablecoin. If there is a high supply concentration, this typically hints that the coin is mostly used by a few large holders. And not well established for retail use cases. To measure the distribution, the total number of addresses, that together hold 80% or more of the total supply, is measured.
-
-
-## ** \
-Answer:** \
- \
-**Score: **
-
-
-<table>
-  <tr>
-   <td><strong>Score</strong>
-   </td>
-   <td><strong>Description</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>25
-   </td>
-   <td>80% of total supply is held by 1500 or more adresses
-   </td>
-  </tr>
-  <tr>
-   <td>20
-   </td>
-   <td>80% of total supply is held by 750 or more adresses
-   </td>
-  </tr>
-  <tr>
-   <td>15
-   </td>
-   <td>80% of total supply is held by 250 or more adresses
-   </td>
-  </tr>
-  <tr>
-   <td>10
-   </td>
-   <td>80% of total supply is held by 100 or more adresses
-   </td>
-  </tr>
-  <tr>
-   <td>5
-   </td>
-   <td>80% of total supply is held by less than 50 adresses
-   </td>
-  </tr>
-  <tr>
-   <td>0
-   </td>
-   <td>80% of total supply is held by less than 10 adresses
-   </td>
-  </tr>
-</table>
-
-
-**1.4 Collateral Decentralization Ratio (50 pts)**
-
-
-## The entity issuing a stablecoin might be decentralized, censorship resistant, and fully immutable. However, there is little value in that when the collateral that is backing its stablecoin is subject to significant centralized control.
-
-
-## The collateral decentralization ratio (CDR) measures the centralization risk of collateral tokens. Collateral with excessive off-chain risk (e.g. fiat-backed stables or custodial assets such as gold/oil etc) are considered to be 0% decentralized. ETH and BTC, as well as certain reward tokens such as AAVE or CRV for instance, are counted as 100% decentralized.
-
-
-## The question that needs to be answered, is whether the collateral is subject to a centralized authority, and whether it has the potential to blacklist or otherwise limit usage, and thus change its viability as collateral.
+## The question is whether the collateral is subject to centralized authority and whether the authority has the potential to blacklist or otherwise limit usage, and thus change its viability as collateral.
 
 
 ## ** \
@@ -730,21 +719,85 @@ Answer:** \
 
 
 
-
-
 # **2. Usage and Adoption (150 pts)**
 
 
-## This section aims to evaluate a stablecoins adoption rate and general acceptance as method of payment.
+## This section aims to evaluate stablecoins scalability and efficiency. Scalability is not easily quantifiable, hence the current adoption and overall acceptance of the stable as the method of payment is used as a proxy.
 
-**2.1 Adoption - Market Capitalization & Market Share (25 pts)**
+**2.1 Stablecoin Market Share (30 pts)**
 
 
-## Market capitalization refers to the total value of the stablecoin. It is easily calculated by multiplying its value per unit (usually 1 USD) with its circulating supply. In addition, the market-share is used to quantify a stablecoins rank, when compared with its peers and competitors.
+## The market share is used to quantify a stablecoins rank when compared with its peers and competitors.
 
 
 ## ** \
 Answer: ** \
+
+
+
+## **Score: **
+
+
+<table>
+  <tr>
+   <td><strong>Score</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>30
+   </td>
+   <td>Market leader = Highest market share
+   </td>
+  </tr>
+  <tr>
+   <td>25
+   </td>
+   <td>Strong competitor = 2nd or 3rd highest market share
+   </td>
+  </tr>
+  <tr>
+   <td>20
+   </td>
+   <td>Established market participant = ranking 4-8 in terms of market share
+   </td>
+  </tr>
+  <tr>
+   <td>15
+   </td>
+   <td>New entrant/weak competitor = ranking 9-20 market share
+   </td>
+  </tr>
+  <tr>
+   <td>10
+   </td>
+   <td>Lower-end competitor = ranking 21 to 40 market share
+   </td>
+  </tr>
+  <tr>
+   <td>5
+   </td>
+   <td>Functional but not established = ranking 40 and lower
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>Fake, scam, or otherwise not usable
+   </td>
+  </tr>
+</table>
+
+
+**2.2 Circulation Supply & Free-Float Supply Ratio (30 pts)**
+
+
+## This section aims to evaluate the free-float supply of each stablecoin. FFSR is calculated as circulating supply minus the tokens still locked in the issuer contract. This provides a more accurate picture of tokens in actual usage than just looking at the circulating supply.
+
+
+## ** \
+Answer:**  \
  \
 **Score: **
 
@@ -757,48 +810,54 @@ Answer: ** \
    </td>
   </tr>
   <tr>
+   <td>30
+   </td>
+   <td>100B+ of FFSR
+   </td>
+  </tr>
+  <tr>
    <td>25
    </td>
-   <td>Market Leader = Highest market cap and/or highest market share
+   <td>10B+ of FFSR
    </td>
   </tr>
   <tr>
    <td>20
    </td>
-   <td>Strong Competitor = 2nd or 3rd highest market cap and market share
+   <td>1B+ of FFSR
    </td>
   </tr>
   <tr>
    <td>15
    </td>
-   <td>Established Market Participant = ranking 4-8 in terms of market cap and share
+   <td>100M+ of FFSR
    </td>
   </tr>
   <tr>
    <td>10
    </td>
-   <td>New Entrant/Weak Competitor = ranking 9-20 market cap and share
+   <td>10M+ of FFSR
    </td>
   </tr>
   <tr>
    <td>5
    </td>
-   <td>Functional but not established = ranking 21 and lower
+   <td>1M+ of FFSR
    </td>
   </tr>
   <tr>
    <td>0
    </td>
-   <td>Fake, scam, or otherwise not-usable
+   <td>Less than 1M tokens in circulation
    </td>
   </tr>
 </table>
 
 
-**2.2 Adoption - Circulation Supply & Free-Float Supply Ratio (25 pts)**
+**2.3 Number of Exchange Listings & Pools (30 pts)**
 
 
-## This section aims to evaluate… 
+## Stablecoin adoption can further be measured by adding up all venues where the coin is operational. This can be centralized exchanges, DEX pairs, lending market pools, and other DeFi use cases (e.g. Yearn vaults, institutional/not-collateralized lending protocols).
 
 
 ## ** \
@@ -815,106 +874,54 @@ Answer:** \
    </td>
   </tr>
   <tr>
-   <td>25
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>20
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>15
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>10
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>5
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>0
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
-
-
-**2.5 Adoption - Number of Exchange Listings & Pools (25 pts)**
-
-
-## Stablecoin adoption can further be measured by adding up all venues where the coin is operational. This can be centralized exchange listings, DEX pairs, lending market pools, and other DeFi use cases.
-
-
-## ** \
-Answer:** \
- \
-**Score: **
-
-
-<table>
-  <tr>
-   <td><strong>Score</strong>
-   </td>
-   <td><strong>Description</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>25
+   <td>30
    </td>
    <td>50+ CEX Listings, 100+ DEX trading pairs, 25+ other pools/vaults
    </td>
   </tr>
   <tr>
-   <td>20
+   <td>25
    </td>
    <td>25+ CEX Listings, 75+ DEX trading pairs, 15+ other pools/vaults
    </td>
   </tr>
   <tr>
-   <td>15
+   <td>20
    </td>
    <td>10+ CEX Listings, 50+ DEX trading pairs, 10+ other pools/vaults
    </td>
   </tr>
   <tr>
-   <td>10
+   <td>15
    </td>
    <td>2+ CEX Listings, 25+ DEX trading pairs, 5+ other pools/vaults
    </td>
   </tr>
   <tr>
-   <td>5
+   <td>10
    </td>
    <td>No CEX Listing, 10+ DEX trading pairs, 2+ other pools/vaults
    </td>
   </tr>
   <tr>
-   <td>0
+   <td>5
    </td>
    <td>No CEX Listing, less than 10 DEX pairs, no other relevant pools/vaults
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>No CEX Listing, less than 5 DEX pairs, no other relevant pools/vaults
    </td>
   </tr>
 </table>
 
 
-**2.6 Adoption - Number of Stablecoin Holders (25 pts)**
+**2.4 Number of Stablecoin Holders (30 pts)**
 
 
-## This measures adoption simply by looking at the total amount of token holders. 
+## This question evaluates adoption simply by looking at the total number of token holders. This can be counted over one or multiple chains.
 
 
 ## ** \
@@ -931,9 +938,15 @@ Answer:** \
    </td>
   </tr>
   <tr>
+   <td>30
+   </td>
+   <td>More than 5M holders
+   </td>
+  </tr>
+  <tr>
    <td>25
    </td>
-   <td>More than 2M holders
+   <td>More than 2.5M holders
    </td>
   </tr>
   <tr>
@@ -969,68 +982,10 @@ Answer:** \
 </table>
 
 
-**2.3 Activity - Market Share Growth (25 pts)**
+**2.5 Daily Transactions (25 pts)**
 
 
-## This section aims to evaluate recent stablecoin activity by measuring its growth rate. Since market share is a highly representative key metric of user adoption, it’s growth rate represents an insightful parameter to quantify recent changes in usage.
-
-
-## ** \
-Answer:** \
- \
-**Score: **
-
-
-<table>
-  <tr>
-   <td><strong>Score</strong>
-   </td>
-   <td><strong>Description</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>25
-   </td>
-   <td>30d growth rate +250%
-   </td>
-  </tr>
-  <tr>
-   <td>20
-   </td>
-   <td>30d growth rate +100%
-   </td>
-  </tr>
-  <tr>
-   <td>15
-   </td>
-   <td>30d growth rate +50%
-   </td>
-  </tr>
-  <tr>
-   <td>10
-   </td>
-   <td>30d growth rate +20%
-   </td>
-  </tr>
-  <tr>
-   <td>5
-   </td>
-   <td>30d growth rate +5%
-   </td>
-  </tr>
-  <tr>
-   <td>0
-   </td>
-   <td>No growth rate
-   </td>
-  </tr>
-</table>
-
-
-**2.4 Activity - Daily Transactions (25 pts)**
-
-
-## This section aims to evaluate a stablecoins activity by taking into account the number of daily transactions.
+## This section aims to evaluate a stablecoins activity by taking into account the number of daily transactions. To account for spikes and drops, the average of the last 30, 60, and 90 days is used.
 
 
 ## ** \
@@ -1047,98 +1002,825 @@ Answer:** \
    </td>
   </tr>
   <tr>
+   <td>30
+   </td>
+   <td>Average 90d trx count 200k+
+   </td>
+  </tr>
+  <tr>
    <td>25
    </td>
-   <td>
+   <td>Average 90d trx count 100k+
    </td>
   </tr>
   <tr>
    <td>20
    </td>
-   <td>
+   <td>Average 90d trx count 50k+
    </td>
   </tr>
   <tr>
    <td>15
    </td>
-   <td>
+   <td>Average 90d trx count 25k+
    </td>
   </tr>
   <tr>
    <td>10
    </td>
-   <td>
+   <td>Average 90d trx count 5k+
    </td>
   </tr>
   <tr>
    <td>5
    </td>
-   <td>
+   <td>Average 90d trx count 1k+
    </td>
   </tr>
   <tr>
    <td>0
    </td>
-   <td>
+   <td>Less than 1k daily trx on 90-day average
    </td>
   </tr>
 </table>
 
 
 
-# **3. Peg Stability - 150 pts**
+
+
+# **3. Peg & Stability Mechanism - 150 pts**
+
+**3.1 Average Price Deviation (30 pts)**
+
+
+## Price deviation refers to periods where the stablecoin is off-peg. It’s measured using the highest  standard deviation over the past 90 days.
+
+
+## ** \
+Answer:** \
+ \
+**Score: **
+
+
+<table>
+  <tr>
+   <td><strong>Score</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>30
+   </td>
+   <td>Peg deviation in a range of 0.5% for 90 days period
+   </td>
+  </tr>
+  <tr>
+   <td>25
+   </td>
+   <td>Peg deviation in a range of 1% for 90 days period
+   </td>
+  </tr>
+  <tr>
+   <td>20
+   </td>
+   <td>Peg deviation in a range of 2.5% for 90 days period
+   </td>
+  </tr>
+  <tr>
+   <td>15
+   </td>
+   <td>Peg deviation in a range of 5% for 90 days period
+   </td>
+  </tr>
+  <tr>
+   <td>10
+   </td>
+   <td>Peg deviation in a range of 10% for 90 days period
+   </td>
+  </tr>
+  <tr>
+   <td>5
+   </td>
+   <td>Peg deviation went out of range of 10% multiple times in 90 days period
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>Peg deviation is out of range of 10% constantly in 90 days period
+   </td>
+  </tr>
+</table>
+
+
+**3.2 Price Deviation during Black Swan Events (25 pts)**
+
+
+## Keeping the peg during “normal” market conditions is essential, but even more meaningful is stability during market distress (e.g. Black Thursday - 12th of March 2020).
+
+
+## ** \
+Answer:** \
+ \
+**Score: **
+
+
+<table>
+  <tr>
+   <td><strong>Score</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>30
+   </td>
+   <td>Price stayed pegged inside 2.5% deviation during all market “Black Swan” events
+   </td>
+  </tr>
+  <tr>
+   <td>25
+   </td>
+   <td>Price stayed pegged inside 5% deviation during all market “Black Swan” events
+   </td>
+  </tr>
+  <tr>
+   <td>20
+   </td>
+   <td>Price stayed pegged inside 10% deviation during all market “Black Swan“ events
+   </td>
+  </tr>
+  <tr>
+   <td>15
+   </td>
+   <td>Price stayed pegged inside 20% deviation during all market “Black Swan“ events
+   </td>
+  </tr>
+  <tr>
+   <td>10
+   </td>
+   <td>Price went out off peg of 20% range in one “Black Swan” event
+   </td>
+  </tr>
+  <tr>
+   <td>5
+   </td>
+   <td>Price went out off peg of 20% range in 2 or 3“Black Swan” events
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>Price went out more than 20% of peg in every market stress
+   </td>
+  </tr>
+</table>
+
+
+**3.3 Days in Operation (25 pts)**
+
+
+## The “age” of a stablecoin can increase confidence in its viability and security. The older a stablecoin, the less likely that it contains severe bugs or economic weaknesses. Hence, the question is how long ago was it deployed and operational without severe failures.
+
+
+## ** \
+Answer:** \
+ \
+**Score: **
+
+
+<table>
+  <tr>
+   <td><strong>Score</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>30
+   </td>
+   <td>2000+ days
+   </td>
+  </tr>
+  <tr>
+   <td>25
+   </td>
+   <td>1500+ days
+   </td>
+  </tr>
+  <tr>
+   <td>20
+   </td>
+   <td>1080+ days
+   </td>
+  </tr>
+  <tr>
+   <td>15
+   </td>
+   <td>720+ days
+   </td>
+  </tr>
+  <tr>
+   <td>10
+   </td>
+   <td>360+ days
+   </td>
+  </tr>
+  <tr>
+   <td>5
+   </td>
+   <td>180+ days
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>Brand new, or multiple severe incidences refuting its viability
+   </td>
+  </tr>
+</table>
+
+
+**3.4 Stability Mechanisms (30 pts)**
+
+Stability mechanisms are used to keep a tokens peg. Some are built into the protocol, some rely on internal or external actors. For these crypto-economic systems to function, agents that help stabilize the protocol usually require incentivization. This question attempts to investigate to what extent the stability design promotes peg stability and whether the incentive design functions as intended.
+
+** \
+Answer:** \
+ \
+**Score: **
+
+
+<table>
+  <tr>
+   <td><strong>Score</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>30
+   </td>
+   <td>The protocol has multiple internal and external stability mechanisms in place (at least 3-4). They are battle-tested, fit for purpose, and safe. All agents are incentivized, independent of market conditions. If a governance token exists, it plays a vital role in stabilizing/ securing the monetary system.
+   </td>
+  </tr>
+  <tr>
+   <td>25
+   </td>
+   <td>The protocol has multiple stability mechanisms in place (at least 2-3). They are battle-tested, fit for purpose, and safe. All agents are incentivized, in most market conditions. If a governance token exists, it plays an important role in stabilizing/ securing the monetary system.
+   </td>
+  </tr>
+  <tr>
+   <td>15
+   </td>
+   <td>The protocol has some stability mechanisms in place (at least 2). They seem to work well. Most agents are incentivized, but only in stable market conditions. If a governance token exists, it plays a role in stabilizing/securing the monetary system.
+   </td>
+  </tr>
+  <tr>
+   <td>10
+   </td>
+   <td>The protocol has one stability mechanism in place. It has worked most of the time. Few or no agents are incentivized. If a governance token exists, it plays a role in stabilizing/securing the monetary system.
+   </td>
+  </tr>
+  <tr>
+   <td>5
+   </td>
+   <td>The protocol has one stability mechanism in place, but it has some flaws. Few or no agents are incentivized. The governance token isn’t relevant.
+   </td>
+  </tr>
+  <tr>
+   <td> 0
+   </td>
+   <td>The protocol has an unreliable stability mechanism, depegs are likely.
+   </td>
+  </tr>
+</table>
+
+
+**3.5 Issuance & Redemption Mechanism (30 pts)**
+
+
+## In essence, this question attempts to answer how safe the protocols mechanisms are that issue the stablecoin. For instance, CDPs are considered safer, as they require over-collateralization and in liquidations protect the system from acquiring bad debt in case of default. Hence, over-collateralization, using top-tier assets in combination with well-oiled liquidation mechanisms is considered to increase stability. Whereby more experimental, under-collateralized, or permissioned systems are considered less stable.
+
+
+## ** \
+Answer:** \
+ \
+**Score: **
+
+
+<table>
+  <tr>
+   <td><strong>Score</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>30
+   </td>
+   <td>Stablecoin can permissionlessly be minted against over-collateralization. Battle-tested liquidation mechanisms prevent bad debt. Issuance and redemption are easily accessible, affordable, and user-friendly.
+   </td>
+  </tr>
+  <tr>
+   <td>25
+   </td>
+   <td>Stablecoin can permissionlessly be minted against collateralization. Liquidation mechanisms prevent bad debt. Issuance and redemption are accessible and user-friendly.
+   </td>
+  </tr>
+  <tr>
+   <td>15
+   </td>
+   <td>Stablecoin can be minted against collateralization but requires permission. Liquidation mechanisms prevent bad debt. Issuance and redemption are only accessible to accredited users.
+   </td>
+  </tr>
+  <tr>
+   <td>5
+   </td>
+   <td>Stablecoin is issued by a centralized entity. There is no accessibility for the public and little transparency on how issuance/redemption works.
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>Issuance and redemption are very complicated, liquidation mechanism is not proven.
+   </td>
+  </tr>
+</table>
 
 
 
-* Price (off-peg) deviation % - over 7d, 30d, 60d, 90d and 180d -
-* Price (off-peg) deviation % on historical “black swan” events -
-* Days in operation (>1000 days = max points, 800-1000 days 75% points, 500-800… etc)
+# **4. Collateral Quality - 150 pts**
+
+**4.1 Collateral Quality (30 pts)**
+
+To facilitate measuring the quality of the collateral, i.e. to avoid full fundamental and risk review of for instance Ethereum or WBTC, the collateral’s market ranking, CEX listings, general sentiment, and adoption will be taken into account. Essentially, we aim to separate between top-tier assets (e.g. ETH, BTC, USDC), high-tier assets (e.g. Uni LPs, CRV LPs), medium-tier assets (e.g. AAVE, CRV, MATIC), and lower-tier assets. To define the tier, external sources such as PrimeRating, Curve, or MakerDAO asset risk assessments are considered as well.
 
 
-# **4. Stabilization mechanism score**
+## ** \
+Answer:** \
+ \
+**Score: **
+
+
+<table>
+  <tr>
+   <td><strong>Score</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>30
+   </td>
+   <td>Collateral is only top tier (ETH, BTC, USDC)
+   </td>
+  </tr>
+  <tr>
+   <td>20
+   </td>
+   <td>Collateral is mostly top tier and higher tier (e.g. ETH, Uni LPs, Curve LPs)
+   </td>
+  </tr>
+  <tr>
+   <td>10
+   </td>
+   <td>Collateral is high tier and medium tier asset (e.g. Curve LPs, CRV, yDAI)
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>Collateral is mostly low tier assets (e.g. APE, FARM)
+   </td>
+  </tr>
+</table>
+
+
+**4.2 Collateral Structure/Diversification (30 pts)**
+
+To measure the quality of the collateral backing the stablecoin, it is important to also take into consideration the diversification of the basket backing it. Diversification can decrease the risks for certain collateral and decrease reliance on one or a few collateral types.
+
+If the trust in the monetary system is mainly based on the collateral, a key consideration is an extent to which the collateral is correlated among itself and to crypto markets in general. Since a downturn in collateral could alter the degree of collateralization and cause a bank-run scenario. This is only relevant for volatile collateral. To calculate the correlation between assets, the correlation ratio (r) can be used, whereby r = 1 means fully correlated and r = 0 means no correlation.
+
+
+## ** \
+Answer:** \
+ \
+**Score: **
+
+
+<table>
+  <tr>
+   <td><strong>Score</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>30
+   </td>
+   <td>Collateral is well diversified and not strongly correlated (r &lt; 0.25)
+   </td>
+  </tr>
+  <tr>
+   <td>20
+   </td>
+   <td>Collateral is diversified and only somewhat correlated (r = 0.25 - 0.75)
+   </td>
+  </tr>
+  <tr>
+   <td>10
+   </td>
+   <td>There are only a few collaterals enabled and it’s correlated (r > 0.75)
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>There’s none or very little diversification and collateral is fully correlated (r = 1)
+   </td>
+  </tr>
+</table>
+
+
+**4.3 Capital Efficiency (30 pts)**
+
+
+## Certain stablecoin mechanisms are limited by their design configuration to scale. For instance, MakerDAO’s DAI requires over-collateralization to issue fresh DAI. The effect of this is that these stablecoins require more value to be locked than it releases, which is considered capital inefficient.
+
+
+## ** \
+Answer:** \
+ \
+**Score: **
+
+
+<table>
+  <tr>
+   <td><strong>Score</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>30
+   </td>
+   <td>The project is highly capital efficient. No over-collateralization is required and collateral is used productively.
+   </td>
+  </tr>
+  <tr>
+   <td>20
+   </td>
+   <td>The project is somewhat capital efficient (e.g. 1:1 collateralization ratio). Collateral is productive.
+   </td>
+  </tr>
+  <tr>
+   <td>10
+   </td>
+   <td>The project is rather capital inefficient (CR > 120%). But collateral is used productively.
+   </td>
+  </tr>
+  <tr>
+   <td>5
+   </td>
+   <td>The project is capital inefficient (CR > 150%). Collateral is not productive.
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>The project is very inefficient (CR > 250%).
+   </td>
+  </tr>
+</table>
+
+
+**4.4 Collateral Volatility (30 pts)**
+
+
+## Measuring the volatility of the collateral indicates how well it is suited to back a stable asset. The higher its volatility the more difficult it becomes to ensure a certain collateralization ratio.
+
+
+## ** \
+Answer:** \
+ \
+**Score: **
+
+
+<table>
+  <tr>
+   <td><strong>Score</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>30
+   </td>
+   <td>Collateral is stable.
+   </td>
+  </tr>
+  <tr>
+   <td>20
+   </td>
+   <td>Collateral is mostly stable with some volatile assets
+   </td>
+  </tr>
+  <tr>
+   <td>10
+   </td>
+   <td>Collateral is rather volatile, with an average 30-day volatility of 5%+
+   </td>
+  </tr>
+  <tr>
+   <td>5
+   </td>
+   <td>Collateral is very volatile, with an average 30-day volatility of 10%+
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>Collateral is extremely volatile, with an average 30-day volatility of 20%+
+   </td>
+  </tr>
+</table>
 
 
 
-* Issuance and redemption mechanisms
-* Protocol/DAO/Company controlled stability mechanisms (internal mechanisms)
-* Open market stability mechanisms (market mechanisms)
-* Complexity (0 - highly complex mechanism, 25 - simple mechanism)
+## **4.5 Auditability of the Collateral (30 pts)**
+
+Transparency is essential for risk-assessments. This is particularly important for stablecoins, as one of the three functions of money is store of value. If the guarantee, in the form of collateral, is not auditable, then risks cannot be assessed. Hence, this question tries to answer how easy it is to confirm that sufficient collateral is in fact backing the stablecoin.
+
+**Answer:** \
+ \
+**Score:** 
 
 
-# **5. Collateral Quality score - 100 pts**
+<table>
+  <tr>
+   <td><strong>Score</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>30
+   </td>
+   <td>Independent on-chain verification is possible and easily accessible.
+   </td>
+  </tr>
+  <tr>
+   <td>20
+   </td>
+   <td>Independent verification (also off-chain) is possible, but requires relying on a trusted third-party auditor or reputable entity.
+   </td>
+  </tr>
+  <tr>
+   <td>15
+   </td>
+   <td>On-chain verification is possible but rather complicated.
+   </td>
+  </tr>
+  <tr>
+   <td>5
+   </td>
+   <td>Verification is not possible, but a third-party audit by a reputable audit entity exists
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>Verification is not possible, and no audits exist
+   </td>
+  </tr>
+</table>
 
 
 
-* Collateral structure (diversification level)
-* Capital efficiency (average CR in %) -
-* Collateral volatility
-* Collateral liquidity
-* Scalability - how much is the total market capitalization of all eligible collateral? (the higher the more points, e.g. LUSD is limited to ETH, so the market cap of ETH - CR is the maximum market cap of LUSD. USDC is much higher because fiat is technically infinite)
 
 
-# **6. Technical security score - 100 pts**
+# **5. Technical Security - 150 pts**
 
 
+## This section aims to identify a protocol's security measures that are put in place to prevent hacks, exploits, or uncover other vulnerabilities.
 
-* Smart Contract Audits and Bug Bounty Programs (external auditors and influence) - 40 pts
-* Smart Contract Architecture quality and complexity (internal factors - team members, contributors, forked code level, ) - 40 pts
-* The technical risk from integrated protocols (Composability risk - technical side) - 20 pts
-* Can hint at a collaboration with DeFi Safety at a later stage
-* Minus points for exploits/hacks
-* 
+**5.1 Smart Contract Audits (50 pts)**
 
 
-# **7. Regulation score - 50 pts**
+## Smart contract audits are one of the most important measures to uncover weaknesses in a protocol's technical core. It’s also essential that these audits were performed by firms with a good reputation.
 
 
+## ** \
+Answer:** \
+ \
+**Score: **
 
-* Fragility degree in different regulatory scenarios (categorization of different regulatory directions and potential influence on stablecoin stability and usability) - 0 - regulatory change has a high impact on the stablecoin, 50 - regulatory change hasn't impact on stablecoin. 50 pts
 
-Metrics in green color can be added later (can also add it now, but leave the metric blanks or “soon”)
+<table>
+  <tr>
+   <td><strong>Score</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>50
+   </td>
+   <td>The protocol has undergone 3-4 audits from reputable firms. The latest audit is not older than 6 months.
+   </td>
+  </tr>
+  <tr>
+   <td>35
+   </td>
+   <td>The protocol has undergone 2-3 audits from reputable firms. The latest audit is not older than 12 months.
+   </td>
+  </tr>
+  <tr>
+   <td>20
+   </td>
+   <td>The protocol has undergone 1-2 audits from reputable firms. The latest audit is not older than 18 months.
+   </td>
+  </tr>
+  <tr>
+   <td>5
+   </td>
+   <td>The protocol has undergone 1 audit. This audit is not older than 18 months.
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>The protocol is not audited.
+   </td>
+  </tr>
+</table>
 
-**Sources**
 
-MakerDAO metrics [https://dune.com/SebVentures/maker---accounting_1](https://dune.com/SebVentures/maker---accounting_1)
+**5.2 Bug Bounty Programs (50 pts)**
+
+
+## Another very useful method to uncover gaps and vulnerabilities is a public bounty program.
+
+
+## ** \
+Answer:** \
+ \
+**Score: **
+
+
+<table>
+  <tr>
+   <td><strong>Score</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>50
+   </td>
+   <td>Bounty is 10% of TVL, or at least $1M
+   </td>
+  </tr>
+  <tr>
+   <td>40
+   </td>
+   <td>Bounty is 5% of TVL, or at least 500k
+   </td>
+  </tr>
+  <tr>
+   <td>30
+   </td>
+   <td>Bounty is 250k or higher
+   </td>
+  </tr>
+  <tr>
+   <td>20
+   </td>
+   <td>Bounty is 100k or higher
+   </td>
+  </tr>
+  <tr>
+   <td>10
+   </td>
+   <td>Bounty is 50k or higher
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>No bug bounty program offered or its not active
+   </td>
+  </tr>
+</table>
+
+
+**5.3 Testing (50 pts)**
+
+
+## Thoroughly testing a protocol's functionality can help to improve it on many levels. It also helps to improve security. Formal verification processes can further strengthen confidence in a protocol's security.
+
+
+## ** \
+Answer:** \
+ \
+**Score: **
+
+
+<table>
+  <tr>
+   <td><strong>Score</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>50
+   </td>
+   <td>Protocol has been tested. Testing covered 100% of the protocol. Results are public and a formal verification process was done.
+   </td>
+  </tr>
+  <tr>
+   <td>40
+   </td>
+   <td>Protocol has been tested. Testing covered 75% of the protocol. Results are public and a formal verification process was done.
+   </td>
+  </tr>
+  <tr>
+   <td>30
+   </td>
+   <td>Protocol has been tested. Testing covered 50% of the protocol. Results are public. No formal verification process was done.
+   </td>
+  </tr>
+  <tr>
+   <td>20
+   </td>
+   <td>Some tests are evident, but testing was not complete. No formal verification process
+   </td>
+  </tr>
+  <tr>
+   <td>10
+   </td>
+   <td>No testing, but code was forked.
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>No testing.
+   </td>
+  </tr>
+</table>
+
+
+**5.6 Penalty for Hacks/Exploits (-300 pts)**
+
+
+## This section will give minus-points, in case the protocol has previously suffered from hacks or exploits.
+
+
+## ** \
+Answer:** \
+ \
+**Score: **
+
+
+<table>
+  <tr>
+   <td><strong>Score</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>-300
+   </td>
+   <td>Protocol has suffered multiple hacks (2-3) and lost a significant amount of user funds.
+   </td>
+  </tr>
+  <tr>
+   <td>-150
+   </td>
+   <td>Protocol has suffered an exploit and lost a significant amount of user funds.
+   </td>
+  </tr>
+  <tr>
+   <td>-50
+   </td>
+   <td>Protocol has suffered a hack or exploit, but with low impact on user funds.
+   </td>
+  </tr>
+  <tr>
+   <td>-25
+   </td>
+   <td>Protocol has suffered a hack or exploit, but with very little/no impact on user funds.
+   </td>
+  </tr>
+</table>
+
 
 
 # Stablecoin Classification
@@ -1461,7 +2143,7 @@ Collateralized (350-400%)
   <tr>
    <td>On-chain (non- custodial)
    </td>
-   <td>Fractional- argorithmic
+   <td>Fractional- algorithmic
 <p>
 (93.25% 
 <p>
